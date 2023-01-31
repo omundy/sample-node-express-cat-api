@@ -5,9 +5,13 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js",
-		"start-dev": "nodemon --ext '*' --trace-warnings server.js",
+		"start-dev": "nodemon --trace-warnings server.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"nodemonConfig": {
+		"ignore": ["*/img/**"],
+		"delay": 2500
+	  },
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
