@@ -26,13 +26,13 @@ npm init
 npm install -g nodemon
 # install project dependencies
 npm install --save express express-handlebars node-fetch
-# open in Atom
-atom .
+# open in VS Code
+code .
 ```
 
 ## Notes on the file structure
 
-In Atom, add the following files from the source from this repository...
+In VS Code, add the following files from the source from this repository...
 
 - [`app`](app) - Directory for all the app files
 	- [`app/middleware.js`](app/middleware.js) - Helper functions for your application stack
@@ -42,7 +42,7 @@ In Atom, add the following files from the source from this repository...
 	- [`views/layouts/main.hbs`](views/layouts/main.hbs) - Main handlebars layout file
 	- [`views/home.hbs`](views/home.hbs) - Home page view that is rendered with handlebars layout file
 - [`.gitignore`](.jshintrc) - Tell git to ignore files
-- [`.jshintrc`](.jshintrc) - Configuration file for [JSHint](https://atom.io/packages/atom-jshint)
+- [`.jshintrc`](.jshintrc) - Configuration file for JSHint, also see: [eslint](https://www.testim.io/blog/eslint-vs-jshint/) 
 - [`app.js`](app.js) - Main app file, ties together all the middleware and modules
 - [`package.json`](package.json) - Update your own `start` scripts from this
 - [`Procfile`](Procfile) - Tells Heroku how to start (see below)
