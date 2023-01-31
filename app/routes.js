@@ -11,12 +11,12 @@ module.exports = function (app) {
 
 	// website home page
 	app.get("/", (req, res) => {
-		// random # between 1-5
-		let r = Math.floor(Math.random() * 5);
+		// random # 
+		let r = Math.floor(Math.random() * 100);
 		// render page
 		res.render("home", {
 			title: "home page",
-			img: "cat" + r + ".jpg",
+			img: "cat-" + String(r).padStart(2, "0") + ".jpg",
 		});
 	});
 
