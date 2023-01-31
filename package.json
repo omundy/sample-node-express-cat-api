@@ -9,8 +9,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"nodemonConfig": {
-		"ignore": ["*/img/**"],
-		"delay": 2500
+		"ignore": ["**/img/**"],
+		"delay": 500
 	  },
 	"author": "",
 	"license": "ISC",
