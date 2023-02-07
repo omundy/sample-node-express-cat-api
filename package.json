@@ -1,22 +1,24 @@
 {
-	"name": "sample-node-express-template",
-	"version": "1.0.0",
-	"description": "",
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js",
-		"start-dev": "nodemon --trace-warnings server.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"nodemonConfig": {
-		"ignore": ["**/img/**"],
-		"delay": 500
-	  },
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"express": "^4.17.1",
-		"express-handlebars": "^5.2.0",
-		"node-fetch": "^2.6.1"
-	}
+  "name": "sample-node-express-cat-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omundy/sample-node-express-cat-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omundy/sample-node-express-cat-api/issues"
+  },
+  "homepage": "https://github.com/omundy/sample-node-express-cat-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "node-fetch": "^3.3.0"
+  }
 }
