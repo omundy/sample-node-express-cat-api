@@ -80,6 +80,10 @@ To add an emoji favicon...
 
 ## Heroku Instructions
 
+R.I.P. Heroku free plan 😥
+
+<del>
+
 ### Heroku Setup
 
 These steps explain how to publish your node app to the web with Heroku. Before you begin you'll need to...
@@ -142,3 +146,5 @@ heroku ps:scale web=1
 - Heroku status is available at https://status.heroku.com/
 - Heroku command line arguments https://devcenter.heroku.com/articles/heroku-cli-commands
 - [How to deploy your Node.js / MongoDB app to the web, using Heroku](https://medium.com/make-school/how-to-deploy-your-node-js-mongodb-app-to-the-web-using-heroku-63d4bccf2675)
+
+</del>
